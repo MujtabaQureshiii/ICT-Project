@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team CVs</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+            background: url('images/background.png') no-repeat center center fixed; 
+            background-size: cover;
+        }
+
+        .card {
+            display: inline-block;
+            width: 200px;
+            background-color: rgba(60, 90, 126, 0.8); 
+            border-radius: 8px;
+            overflow: hidden;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+            padding: 15px;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card h2 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+        .card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+
+        .card a {
+            display: block;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+            background-color: #1b3b5f;
+            padding: 10px;
+            border-radius: 4px;
+            border-top: 2px solid #2e4d74;
+        }
+
+        .card a:hover {
+            background-color: #2e4d74;
+        }
+    </style>
+</head>
+<body>
+    <div style="text-align: center">
+        <h1 style="margin-bottom: 20px; color: #ffffff; font-size: 3.5em; font-family: 'Georgia', serif; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); letter-spacing: 2px;">Meet Our Team</h1>
+
+        <div class="card">
+            <h2>Mujtaba Qureshi</h2>
+            <img src="images/mujtaba.jpg">
+            <a href="mujtabaCV.html">View CV</a>
+        </div>
+        <div class="card">
+            <h2>Mahnoor Hussain</h2>
+            <img src="images/mahnoor.jpg" alt="Member 2">
+            <a href="mahnoorCV.html">View CV</a>
+        </div>
+        <div class="card">
+            <h2>Faizan Nara</h2>
+            <img src="images/faizan.jpg" alt="Member 3">
+            <a href="faizanCV.html">View CV</a>
+        </div>
+    </div>
+</body>
+</html>
